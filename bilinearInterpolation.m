@@ -10,8 +10,12 @@ I_new=zeros(x_new,y_new);
 rgb = 0;
 while rgb < color
     rgb = rgb + 1;
-    for i=1:x_new
-        for j=1:y_new
+    i = 0;
+    while i < x_new
+        i = i + 1;
+        j = 0;
+        while j < y_new
+            j = j + 1;
             x=i/k;
             a=floor(x);
             y=j/k;
